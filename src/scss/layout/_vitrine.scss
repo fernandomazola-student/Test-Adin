@@ -1,0 +1,50 @@
+.vitrine {
+  &-ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li {
+      text-align: center;
+      padding: 18px 18px 0 18px;
+      .product {
+        color: $calypso;
+        margin-bottom: 10px;
+      }
+      .info-pay {
+        text-transform: uppercase;
+        color: gray;
+        margin-top: 15px;
+      }
+      hr{
+          width: 80%;
+          margin: 0 auto;
+          margin-bottom: 5px;
+      }
+      .price{
+          color: $calypso;
+          font-size: 1.4rem;
+          font-weight: bold;
+          margin-bottom: 20px;
+      }
+      button{
+          background-color: $apple;
+          padding: 8px 15px;
+          border: 0;
+          color: $white;
+          display: block;
+          width: 100%;
+      }
+      & + li {
+        border-left: 2px solid $celeste;
+      }
+    }
+  }
+}
+
+@media (max-width:700px){
+  .vitrine-ul{
+    li + li{
+      border: 0;
+    }
+  }
+}

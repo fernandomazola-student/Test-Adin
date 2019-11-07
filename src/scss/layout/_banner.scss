@@ -1,0 +1,10 @@
+.banner {
+  &-color {
+    padding: 200px 0;
+    background: $red;
+  }
+  h1 {
+    text-align: center;
+    color: $white;
+  }
+}

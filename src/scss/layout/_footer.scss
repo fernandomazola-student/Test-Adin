@@ -1,0 +1,45 @@
+.main-footer {
+    margin-top: 40px;
+  &-color {
+    background-color: $yellow;
+    padding: 20px 0;
+    .network {
+      text-align: center;
+      color: $calypso;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+    ul.icons {
+      display: flex;
+      justify-content: space-around;
+      width: 40%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      li.icons-li {
+        width: 41px;
+        height: 39px;
+        background-repeat: no-repeat;
+      }
+      li.face {
+        background-image: url("../../src/imgs/face.jpg");
+      }
+      li.insta {
+        background-image: url("../../src/imgs/insta.jpg");
+      }
+      li.youtube {
+        background-image: url("../../src/imgs/youtube.jpg");
+      }
+    }
+    .text {
+      max-width: 95%;
+      margin: 0 auto;
+      color: $calypso;
+    }
+    .link {
+      text-decoration: underline;
+    }
+    .pipe{
+        margin: 0 8px;
+    }
+  }
+}

@@ -1,0 +1,132 @@
+/*TOOLS*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 650px;
+  width: 98%;
+  margin: 0 auto;
+}
+
+/*LAYOUT*/
+.banner-color {
+  padding: 200px 0;
+  background: red;
+}
+.banner h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.box-imgs-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+
+.vitrine-ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.vitrine-ul li {
+  text-align: center;
+  padding: 18px 18px 0 18px;
+}
+.vitrine-ul li .product {
+  color: #25489a;
+  margin-bottom: 10px;
+}
+.vitrine-ul li .info-pay {
+  text-transform: uppercase;
+  color: gray;
+  margin-top: 15px;
+}
+.vitrine-ul li hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.vitrine-ul li .price {
+  color: #25489a;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.vitrine-ul li button {
+  background-color: #36ae44;
+  padding: 8px 15px;
+  border: 0;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+.vitrine-ul li + li {
+  border-left: 2px solid #D6D8D5;
+}
+
+@media (max-width: 700px) {
+  .vitrine-ul li + li {
+    border: 0;
+  }
+}
+.main-footer {
+  margin-top: 40px;
+}
+.main-footer-color {
+  background-color: #ffd401;
+  padding: 20px 0;
+}
+.main-footer-color .network {
+  text-align: center;
+  color: #25489a;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+.main-footer-color ul.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.main-footer-color ul.icons li.icons-li {
+  width: 41px;
+  height: 39px;
+  background-repeat: no-repeat;
+}
+.main-footer-color ul.icons li.face {
+  background-image: url("../../src/imgs/face.jpg");
+}
+.main-footer-color ul.icons li.insta {
+  background-image: url("../../src/imgs/insta.jpg");
+}
+.main-footer-color ul.icons li.youtube {
+  background-image: url("../../src/imgs/youtube.jpg");
+}
+.main-footer-color .text {
+  max-width: 95%;
+  margin: 0 auto;
+  color: #25489a;
+}
+.main-footer-color .link {
+  text-decoration: underline;
+}
+.main-footer-color .pipe {
+  margin: 0 8px;
+}
+
+/*# sourceMappingURL=index.css.map */
